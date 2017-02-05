@@ -18,9 +18,9 @@ $(document).ready(function(){
   $("#breakConstraint").hide();
 	$(".input-1").change(function () {
       var checked=$("#"+this.id).is(":checked");
-       alert(this.id);
+      // alert(this.id);
        var getval=$("#"+this.id).val();
-       alert(getval);
+       //alert(getval);
      if(getval="0"){
            
        $("#"+this.id).attr("checked");
@@ -34,7 +34,7 @@ $(document).ready(function(){
        if(checked){
 
           if(this.id=="check6"){
-                  alert("wferwet");
+                //  alert("wferwet");
              $("#breakConstraint").show();
             // $("#check6").hide();
            

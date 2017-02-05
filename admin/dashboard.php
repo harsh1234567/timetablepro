@@ -339,8 +339,10 @@ A student has preferred room  </strong>
 			<!-- Button--> 
 			<div class="form-group">
 			  <label class="col-md-4 control-label" for="generate"></label>
-			  <div class="col-md-4">
+			  <div class="col-md-8">
 				<input type="submit" id="generate" name="generate" class="btn btn-success" value="Create Time Table">
+					<a href="deleteRuleSet.php" class="btn btn-warning">Delete ruleset</a>
+			
 				</div>
 			</div>
 
